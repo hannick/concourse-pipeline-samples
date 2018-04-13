@@ -9,7 +9,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://github.com/lxyoutlook/concourse-pipeline-samples.git
+    uri: https://github.com/hannick/concourse-pipeline-samples.git
 - name: PWS
   type: cf
   source:
@@ -72,3 +72,5 @@ jobs:
       PWS_USER: {{deploy-username}}
       PWS_PWD: {{deploy-password}}
       PWS_SPACE: {{pws-space}}
+
+
